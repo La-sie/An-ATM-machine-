@@ -3,8 +3,11 @@
 using namespace std;
 
 int main () {
-    int pin
-    cout << "******Welcome to Reina Bank******" << endl;
+    int pin;
+    int password = sella275;
+    bool isTrue = true;
+   do
+        { cout << "******Welcome to Reina Bank******" << endl;
     
     cout << "Insert your card"<<endl;
     
@@ -13,7 +16,15 @@ int main () {
     cout << "Enter your pin"<< endl;
     cin >> pin;
     cout << endl;
-    
+       if (pin = password){
+       }
+       else {
+          count++
+       }
+    }
+    while {
+
+    }
     cout << "PROCEED..."<< endl;
     cout << "CHOOSE AN OPTION: "<< endl;
     cout << endl;
