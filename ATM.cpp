@@ -5,9 +5,11 @@ using namespace std;
 int main () {
     int pin;
     int password = sella275;
+    int count = 0;
+    int optionNumber;
     bool isTrue = true;
    do
-        { cout << "******Welcome to Reina Bank******" << endl;
+    { cout << "******Welcome to Reina Bank******" << endl;
     
     cout << "Insert your card"<<endl;
     
@@ -15,22 +17,38 @@ int main () {
     
     cout << "Enter your pin"<< endl;
     cin >> pin;
+
     cout << endl;
-       if (pin = password){
+
+     if (pin = password){
+       cout << "PROCEED..."<< endl;
+       cout << endl;
+
+       cout << "1. Withdraw"<< endl;
+       cout << "2. Deposit" << endl;
+       cout << "3. Balance" << endl;
+       cout << "4. Exit" << endl;
+
+       cout << "CHOOSE AN OPTION: "<< endl;
+       cin >> optionNumber;
+
+       switch (optionNumber)
+         {
+
+         }
        }
-       else {
-          count++
-       }
+
+     else {
+        count++
+          if ( count == 3) {
+           isTrue = false;
+     }
+          else {
+            cout << " Wrong pin! \n";
     }
     while {
 
     }
-    cout << "PROCEED..."<< endl;
-    cout << "CHOOSE AN OPTION: "<< endl;
-    cout << endl;
-    cout << "1. Withdraw"<< endl;
-    cout << "2. Deposit" << endl;
-    cout << "3. Balance" << endl;
-    cout << "4. Exit" << endl;
+    
     
 }
