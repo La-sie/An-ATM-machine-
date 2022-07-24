@@ -24,6 +24,7 @@ int main () {
     cout << endl;
 
      if (pin = password){
+        do {
        cout << "PROCEED..."<< endl;
        cout << endl;
        
@@ -57,14 +58,17 @@ int main () {
              break;
          }
        }
+        while (isTrue != false);
+       }
 
      else {
-        count++
+        count++;
           if ( count == 3) {
            isTrue = false;
      }
           else {
             cout << " Wrong pin! \n";
-    }
+          }
+     }
     while ( isTrue != false);
 }
