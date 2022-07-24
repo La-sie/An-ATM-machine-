@@ -11,6 +11,9 @@ int main () {
     double withdraw = 0.0;
     double balance = 0.0;
     bool isTrue = true;
+
+    system ( "Color 4E");
+
    do
     { cout << "******Welcome to Reina Bank******" << endl;
     
@@ -46,9 +49,16 @@ int main () {
                     balance = balance + deposit;
              break;
             case 2 :
+                    if (balance <= 0) {
+                    cout << "Please, deposit funds" << endl;
+                    }
+                    else {
+
                     cout << " Withdraw money : " << endl;
                     cin >> withdraw;
                     balance = balance - withdraw;
+
+                    }
              break;
             case 3 : 
                     cout << " Check balance: " << balance << endl;
