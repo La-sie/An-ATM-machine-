@@ -50,10 +50,10 @@ int main () {
                     balance = balance - withdraw;
              break;
             case 3 : 
-                    cout << " Check balance: " << endl;
+                    cout << " Check balance: " << balance << endl;
              break;
             case 4 :
-                 
+                   cout << " Thank you for banking with us" << endl;
              break;
          }
        }
