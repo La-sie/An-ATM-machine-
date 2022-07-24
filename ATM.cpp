@@ -26,6 +26,8 @@ int main () {
      if (pin = password){
        cout << "PROCEED..."<< endl;
        cout << endl;
+       
+       cout << "******Welcome to Reina Bank******"<< endl;
 
        cout << "1. Withdraw"<< endl;
        cout << "2. Deposit" << endl;
@@ -37,13 +39,21 @@ int main () {
 
        switch (optionNumber)
          {
-            case 1 :
+            case 1 : 
+                    cout << "Deposit money :\n";
+                    cin >> deposit;
+                    balance = balance + deposit;
              break;
             case 2 :
+                    cout << " Withdraw money : " << endl;
+                    cin >> withdraw;
+                    balance = balance - withdraw;
              break;
-            case 3 :
+            case 3 : 
+                    cout << " Check balance: " << endl;
              break;
             case 4 :
+                 
              break;
          }
        }
