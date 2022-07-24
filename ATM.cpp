@@ -66,7 +66,5 @@ int main () {
           else {
             cout << " Wrong pin! \n";
     }
-    while {
-
-    } 
+    while ( isTrue != false);
 }
