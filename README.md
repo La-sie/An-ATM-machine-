@@ -1,3 +1,3 @@
 # An-ATM-machine-
-This is the simple layout of an ATM machine.
-I will keep updating it along my course in c++.
+This is a simple code of an ATM machine I wrote using 
+C++. Review at your own risk. 
