@@ -7,6 +7,9 @@ int main () {
     int password = sella275;
     int count = 0;
     int optionNumber;
+    double deposit = 0.0;
+    double withdraw = 0.0;
+    double balance = 0.0;
     bool isTrue = true;
    do
     { cout << "******Welcome to Reina Bank******" << endl;
@@ -48,7 +51,5 @@ int main () {
     }
     while {
 
-    }
-    
-    
+    } 
 }
