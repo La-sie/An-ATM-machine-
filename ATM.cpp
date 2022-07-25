@@ -75,10 +75,11 @@ int main () {
         count++;
           if ( count == 3) {
            isTrue = false;
-     }
+      }
           else {
             cout << " Wrong pin! \n";
           }
-     }
-    while ( isTrue != false);
+      }
+   while ( isTrue != false);
+ return 0;
 }
