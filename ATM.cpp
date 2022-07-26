@@ -4,7 +4,7 @@ using namespace std;
 
 int main () {
     int pin;
-    int password = sella275;
+    int password = 58005;
     int count = 0;
     int optionNumber;
     double deposit = 0.0;
@@ -26,7 +26,7 @@ int main () {
 
     cout << endl;
 
-     if (pin = password){
+     if (pin == password){
         do {
        cout << "PROCEED..."<< endl;
        cout << endl;
@@ -82,4 +82,5 @@ int main () {
       }
    while ( isTrue != false);
  return 0;
+     }
 }
