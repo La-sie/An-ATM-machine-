@@ -15,12 +15,12 @@ int main () {
     system ( "Color 4E");
 
    do
-    { cout << "******Welcome to Reina Bank******" << endl;
-    
+    { cout << "***Welcome to Reina Bank***" << endl;
+
     cout << "Insert your card"<<endl;
-    
+
     cout << "PROCESSING..."<< endl;
-    
+
     cout << "Enter your pin"<< endl;
     cin >> pin;
 
@@ -30,8 +30,8 @@ int main () {
         do {
        cout << "PROCEED..."<< endl;
        cout << endl;
-       
-       cout << "******Welcome to Reina Bank******"<< endl;
+
+       cout << "***Welcome to Reina Bank***"<< endl;
 
        cout << "1. Withdraw"<< endl;
        cout << "2. Deposit" << endl;
@@ -43,7 +43,7 @@ int main () {
 
        switch (optionNumber)
          {
-            case 1 : 
+            case 1 :
                     cout << "Deposit money :\n";
                     cin >> deposit;
                     balance = balance + deposit;
@@ -60,7 +60,7 @@ int main () {
 
                     }
              break;
-            case 3 : 
+            case 3 :
                     cout << " Check balance: " << balance << endl;
              break;
             case 4 :
@@ -84,4 +84,3 @@ int main () {
    while ( isTrue != false);
  return 0;
      }
-}
