@@ -3,8 +3,8 @@
 using namespace std;
 
 int main () {
-    string pin;
-    string password = "sella";
+    int pin;
+    int password = 6890;
     int count = 0;
     int optionNumber;
     double deposit = 0.0;
@@ -80,6 +80,7 @@ int main () {
             cout << " Wrong pin! \n";
           }
       }
+}
    while ( isTrue != false);
  return 0;
      }
