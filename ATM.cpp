@@ -3,8 +3,8 @@
 using namespace std;
 
 int main () {
-    int pin;
-    int password = 58005;
+    string pin;
+    string password = "sella";
     int count = 0;
     int optionNumber;
     double deposit = 0.0;
