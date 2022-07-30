@@ -16,11 +16,11 @@ int main () {
 
    do
     { cout << "***Welcome to Reina Bank***" << endl;
-
+    
     cout << "Insert your card"<<endl;
-
+    
     cout << "PROCESSING..."<< endl;
-
+    
     cout << "Enter your pin"<< endl;
     cin >> pin;
 
@@ -30,7 +30,7 @@ int main () {
         do {
        cout << "PROCEED..."<< endl;
        cout << endl;
-
+       
        cout << "***Welcome to Reina Bank***"<< endl;
 
        cout << "1. Withdraw"<< endl;
@@ -43,12 +43,12 @@ int main () {
 
        switch (optionNumber)
          {
-            case 1 :
+            case 2 : 
                     cout << "Deposit money :\n";
                     cin >> deposit;
                     balance = balance + deposit;
              break;
-            case 2 :
+            case 1 :
                     if (balance <= 0) {
                     cout << "Please, deposit funds" << endl;
                     }
@@ -60,11 +60,12 @@ int main () {
 
                     }
              break;
-            case 3 :
+            case 3 : 
                     cout << " Check balance: " << balance << endl;
              break;
             case 4 :
                    cout << " Thank you for banking with us" << endl;
+                   isTrue = false;
              break;
          }
        }
@@ -83,4 +84,5 @@ int main () {
 }
    while ( isTrue != false);
  return 0;
-     }
+     
+}
